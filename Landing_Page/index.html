@@ -4,9 +4,41 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Landing Page</title>
+  <title>Best Phone Deals</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-  
+  <nav class=" flex justify-between bg-purple-800 text-white">
+    <span class="flex text-xl items-center mx-3 font-bold cursor-pointer">Phone Deals</span>
+    <ul class="flex px-20 py-4 space-x-11 justify-end">
+      <li>Home</li>
+      <li>About</li>
+      <li>Phones</li>
+      <li>Contact Us</li>
+    </ul>
+  </nav>
+
+  <main class="bg-fuchsia-100 flex justify-around">
+    <div class="main py-40 pl-11">
+      <div class="text-6xl">
+        The best phone deals
+      </div>
+      <p class="py-3 w-1/3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus molestias omnis cumque consectetur porro vero impedit ad dignissimos velit dolorum.
+      </p>
+      <div class="button my-4">
+        <button class="bg-purple-800 text-white px-3 py-2 rounded-2xl hover:text-slate-900 hover:bg-fuchsia-700">
+          Buy Now
+        </button>
+        <button class="bg-purple-800 text-white px-3 py-2 rounded-2xl hover:text-slate-900 hover:bg-fuchsia-700">
+          Contact Us
+        </button>
+      </div>
+    </div>
+    <div class="flex items-center">
+      <img src="./images/download.jfif" alt="Man using fone" class="h-80">
+    </div>
+  </main>
+
 </body>
 </html>
